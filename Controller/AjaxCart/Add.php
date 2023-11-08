@@ -103,6 +103,11 @@ class Add implements HttpPostActionInterface
                         'product_id' => $item['id'],
                         'qty' => $item['qty']
                     ];
+
+                    if (isset($item['options'])){
+                        $params['super_attribute'] = $item['options'];
+                    }
+
                     $this->cart->addProduct($item['id'], $params);
                     $count++;
                 }
@@ -116,7 +121,7 @@ class Add implements HttpPostActionInterface
                     ]
                 );
             } catch (LocalizedException | \Exception $e) {
-                $this->messageManager->addErrorMessage("Something went wrong, try again!");
+                $this->messageManager->addErrorMessage($e->getMessage());
                 $this->logger->error($e->getMessage());
             }
         } else {

@@ -9,6 +9,7 @@ var config = {
     map: {
         '*': {
             bulkAddToCart: 'M2Commerce_BulkAddToCart/js/bulk-add-to-cart',
+            'Magento_Swatches/js/swatch-renderer' : 'M2Commerce_BulkAddToCart/js/swatchRenderer',
             'Magento_Catalog/js/catalog-add-to-cart': 'M2Commerce_BulkAddToCart/js/catalog-add-to-cart'
         }
     }
