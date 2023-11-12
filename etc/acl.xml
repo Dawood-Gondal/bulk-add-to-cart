@@ -14,7 +14,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="M2Commerce_BulkAddToCart::bulkAddToCartConfig" title="CE - Bulk Add to Cart Config" />
+                            <resource id="M2Commerce_BulkAddToCart::bulkAddToCartConfig" title="M2C - Bulk Add to Cart" />
                         </resource>
                     </resource>
                 </resource>

@@ -2,11 +2,11 @@
     "name": "m2commerce/bulk-add-to-cart",
     "description": "Magento 2 Module to give feature for bulk add to cart on listing pages",
     "require": {
-        "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.1.0"
+        "php": "~7.3.0|~7.4.0|~8.1.0"
     },
     "type": "magento2-module",
     "keywords": ["magento2"],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license":[
         "proprietary"
     ],
